@@ -44,7 +44,7 @@ Now we are ready to setup the toolbox:
 docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY --mount type=bind,source="/$rundir",target=/srv/actom-run/input actomtoolbox/actom-run
 ```
 
-You now have your settings file...
+This should run, request inputs, and provide you with your settings files...
 
 # this is a work in progress and needs completing ...... #
 
