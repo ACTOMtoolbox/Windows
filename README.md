@@ -4,6 +4,8 @@ Run on a Windows machine with a graphical user interface for settings - Docker i
 
 As the toolbox setup needs access to your computer's display, the code must be run on a system with an X11 server. We suggest installing mobaxterm (https://mobaxterm.mobatek.net/) as this is an xserver built into a terminal. This may need to be run with administrator privileges depending on your docker instalation.
 
+As windows does not have a native Shell component each command and tool must be run individually.
+
 With docker engine running and in mobaxterm test the docker "hello world"
 
 ```
