@@ -2,9 +2,9 @@
 
 Run on a Windows machine with a graphical user interface for settings - Docker is required to run the toolbox (https://docs.docker.com/engine/install/).
 
-As the toolbox setup needs access to your computer's display, the toolbox must be run on a system with an X11 server. We suggest installing mobaxterm (https://mobaxterm.mobatek.net/) as this is an Xserver built into a terminal. This may need to be run with administrator privileges depending on your docker instalation.
+As the toolbox setup needs access to your computer's display, the toolbox must be run on a system with an X11 server installed. We suggest installing mobaxterm (https://mobaxterm.mobatek.net/) as this is an Xserver built into a terminal.
 
-With docker engine and an X11 server running, execute Run.bat in the folder you wish to run the toolbox in. This can be done through double clicking on the program, or typing the following into the terminal in the correct folder.
+With docker engine and an X11 server running, execute Run.bat in the folder you wish to run the toolbox in. This can be done through double clicking on the program, or typing the following into the terminal in the correct folder. This may require administrator privileges.
 
 ```
 .\Run-All.bat
