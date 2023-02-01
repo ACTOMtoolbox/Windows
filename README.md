@@ -1,4 +1,4 @@
-# Windows
+# Windows - Beta (going through testing)
 
 Run on a Windows machine with a graphical user interface for settings - Docker is required to run the toolbox (https://docs.docker.com/engine/install/).
 
