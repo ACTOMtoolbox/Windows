@@ -14,4 +14,4 @@ docker run -i -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=%Disp% --mount type=bi
 @ DEL Run-All.sh
 @ .\Run-All.bat
 @ mkdir logs
-@ move Run-All.bat, Run-All.bat, %cd%/logs
+@ move Run-All.bat, Run-All.bat %cd%/logs
