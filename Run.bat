@@ -9,7 +9,6 @@
 @ mkdir %title%
 @ cd %title%
 
-docker run -i -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=%Disp% --mount type=bind,source=%cd%,target=/srv/actom-run/input actomtoolbox/actom-run
+docker run -i -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=%Disp% -e systemOS=win --mount type=bind,source=%cd%,target=/srv/actom-run/input actomtoolbox/actom-run
 
-@ DEL Run-All.sh
  .\Run-All.bat
